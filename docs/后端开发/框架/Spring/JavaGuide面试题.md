@@ -1,0 +1,49 @@
+<meta name="referrer" content="no-referrer"/>
+
+## Spring IOC
++ 什么是SpringIOC，控制反转
++ IOC容器实际上是什么数据结构？
++ 什么是Spring Bean
++ Spring中配置Bean有几种方法
++ 将一个类声明为 Bean 的注解有哪些?
++ @Component 和 @Bean 的区别是什么？有什么情况是@Componet可以实现的而@Bean无法实现的？
++ 注入 Bean 的注解有哪些？
++ @Autowired是Spring提供的还是JDK提供的？@Autowired根据什么进行匹配？如果有多个实现类没有@Qualifier注解的时候，会根据什么进行匹配？@Qualifier注解是用来干什么的？
++ @Resource默认是根据什么进行匹配？如果无法匹配则根据什么进行匹配？@Resource的两个属性是什么？如果同时指定则注入方式是什么？
++ @Autowired 和 @Resource 的区别是什么？
++ 注入Bean的常见方式有哪三种？
++ Bean的作用域signleton prototype request session application/global-session websocket分别是什么？如何配置Bean的作用域？
++ Bean是线程安全的吗？举个不安全的例子
++ Bean的生命周期是什么样的？
+
+> 实例化 -> 属性赋值 -> 初始化 -> 销毁
+>
+
+## Spring AOP
++ 谈谈自己对于 AOP 的了解
++ AOP 常见的通知类型有哪些？
++ 多个切面的执行顺序如何控制？
+
+## Spring MVC
++ 说说自己对于 Spring MVC 了解?
++ SpringMVC 工作原理了解吗?
++ Spring 框架中用到了哪些设计模式？
+
+## Spring的循环依赖
++ 什么是循环依赖？
++ Spring通过什么方法解决这个问题？
++ 三级缓存每一层分别存储了什么？
++ 三级解决循环依赖的流程是怎么样的？
++ 没有AOP三个缓存可以替换成两个缓存吗？
++ 三级缓存机制有什么缺点？什么情况不支持三级缓存？
++ @Lazy 能解决循环依赖吗？
++ SpringBoot 允许循环依赖发生么？
+
+## Spring事务
++ Spring 管理事务的方式有几种？
++ Spring 事务中哪几种事务传播行为?
++ Spring 事务中的隔离级别有哪几种?
++ @Transactional(rollbackFor = Exception.class)注解了解吗？
+
+
+
