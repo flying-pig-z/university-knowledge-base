@@ -11,7 +11,7 @@
 - 最近更新时间：2025/2/3
 
 [GitHub](https://github.com/flying-pig-z)
-[Get Started](http://8.210.250.29/#/README)
+[Get Started](/#/README)
 
 <!-- background image -->
 
