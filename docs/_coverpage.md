@@ -11,7 +11,7 @@
 - 最近更新时间：2025/2/3
 
 [GitHub](https://github.com/flying-pig-z)
-[Get Started](#flying-pig-大学学习笔记)
+[Get Started](#大学学习笔记-by-flying-pig)
 
 <!-- background image -->
 
