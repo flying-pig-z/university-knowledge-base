@@ -164,8 +164,28 @@ Stream[在 Redis 发生故障恢复后不能保证消息至少被消费一次]
 + 哪些情况可能会导致 Redis 阻塞？
 
 ## Redis集群
+1. 什么是 Sentinel？ 有什么用？
+2. 什么是主观下线，客观下线？如何判断节点是否主观下线？Sentinel如何实现故障转移的？为什么建议部署多个sentinel节点？
+3. Sentinel 如何选择出新的 master?
+4. 如何从 Sentinel 集群中选择出 Leader ？
+5. Sentinel 可以防止脑裂吗？
 
+
+
++ 为什么需要redis cluster?解决了什么问题？为什么主从复制+Sentinel还不够？为什么不能只靠提高主机的硬件？是否内置了主从复制和Sentinel的功能?
+
+
+
++ 一个最基本的Redis Cluster架构是怎么样的？（三主三从）为什么每个master要有一个或多个slave？
++ Redis Cluster是如何分片的？怎么计算给定的key应该分布到哪个哈希槽中？
++ 为什么Redis Cluster的哈希槽是16384个？
++ 怎么做让 Redis Cluster 重新分配哈希槽？
++ Redis Cluster扩容期间可以提供服务吗？ASK重定向和MOVED重定向有什么区别？
++ Redis Cluster中的节点是怎么进行通信的？它是怎么内置实现Redis Cluster的功能的？
 
 ## Redis主从复制
-
++ 主从架构是怎么样的？什么是主从复制？
++ 复制流程大致是怎么样的？
++ 全量同步和增量同步的具体流程是怎么样的？
++ replication buffer和repl_backlog_buffer的区别？
 
