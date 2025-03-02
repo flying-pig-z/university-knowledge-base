@@ -85,7 +85,7 @@ Java中最常见的集合API其实就List Queue Map Set Stack这五种。
 + `computeIfPresent(K key, BiFunction<K,V,V> remappingFunction)`: 当键存在时，计算并更新值
 
 ### Set
-
+Set也是集合，API和Collection差不多。
 
 ### Collections
 我来介绍一下Java中Collections工具类的常用方法，按照不同的功能类别来组织：
@@ -213,7 +213,22 @@ String sortedStr = new String(chars);
 // 结果: "abcdef"
 ```
 
++ 反转字符串 -- StringBuffer或StringBuilder的reverse方法
 
+```plain
+public class StringReverseExample {
+    public static void main(String[] args) {
+        String str = "Hello, world!";
+        
+        // 使用 StringBuilder 反转字符串
+        String reversed = new StringBuilder(str).reverse().toString();
+        
+        System.out.println("Original string: " + str);
+        System.out.println("Reversed string: " + reversed);
+    }
+}
+```
 
-
+### Arrays -- 操作数组
+Arrays.sort -- 排序
 

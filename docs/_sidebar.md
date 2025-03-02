@@ -1,5 +1,4 @@
 * [README](/README.md)
-* [_coverpage](/_coverpage.md)
 * 代码能力
   * [源码阅读](/代码能力/源码阅读.md)
   * [组合，继承和接口](/代码能力/组合，继承和接口.md)
@@ -24,27 +23,46 @@
     * JUC
       * [JUC问题清单](/后端开发/Java/JUC/JUC问题清单.md)
   * MySQL数据库
-    * [MVCC的原理](/后端开发/MySQL数据库/MVCC的原理.md)
-    * [MySql索引](/后端开发/MySQL数据库/MySql索引.md)
-    * [MySQL锁](/后端开发/MySQL数据库/MySQL锁.md)
-    * [Mysql问题清单](/后端开发/MySQL数据库/Mysql问题清单.md)
-    * [怎么设计数据库](/后端开发/MySQL数据库/怎么设计数据库.md)
-    * [数据库事务与事务隔离级别](/后端开发/MySQL数据库/数据库事务与事务隔离级别.md)
-    * [数据库日志和恢复技术（一）](/后端开发/MySQL数据库/数据库日志和恢复技术（一）.md)
-    * [数据库日志和恢复技术（二）](/后端开发/MySQL数据库/数据库日志和恢复技术（二）.md)
-    * [数据库期末考题型复习](/后端开发/MySQL数据库/数据库期末考题型复习.md)
-    * [数据库概述与_SQL](/后端开发/MySQL数据库/数据库概述与_SQL.md)
+    * 知识清单
+      * [MVCC的原理](/后端开发/MySQL数据库/知识清单/MVCC的原理.md)
+      * [MySql索引](/后端开发/MySQL数据库/知识清单/MySql索引.md)
+      * [MySQL锁](/后端开发/MySQL数据库/知识清单/MySQL锁.md)
+      * [Mysql问题清单](/后端开发/MySQL数据库/知识清单/Mysql问题清单.md)
+      * [怎么设计数据库](/后端开发/MySQL数据库/知识清单/怎么设计数据库.md)
+      * [数据库事务与事务隔离级别](/后端开发/MySQL数据库/知识清单/数据库事务与事务隔离级别.md)
+      * [数据库日志和恢复技术（一）](/后端开发/MySQL数据库/知识清单/数据库日志和恢复技术（一）.md)
+      * [数据库日志和恢复技术（二）](/后端开发/MySQL数据库/知识清单/数据库日志和恢复技术（二）.md)
+      * [数据库概述与_SQL](/后端开发/MySQL数据库/知识清单/数据库概述与_SQL.md)
+    * 面试题
+      * [数据库期末考题型复习](/后端开发/MySQL数据库/面试题/数据库期末考题型复习.md)
+      * [水平分表是怎么样做查询的](/后端开发/MySQL数据库/面试题/水平分表是怎么样做查询的.md)
+      * [深度分页问题及优化方案](/后端开发/MySQL数据库/面试题/深度分页问题及优化方案.md)
   * Redis
     * [Redis_Cluster](/后端开发/Redis/Redis_Cluster.md)
     * [Redis主从复制](/后端开发/Redis/Redis主从复制.md)
     * [Redis问题清单](/后端开发/Redis/Redis问题清单.md)
     * [缓存使用场景与缓存最终一致性的策略](/后端开发/Redis/缓存使用场景与缓存最终一致性的策略.md)
+    * [缓存雪崩、击穿与穿透](/后端开发/Redis/缓存雪崩、击穿与穿透.md)
     * [购物车场景与Hash类型](/后端开发/Redis/购物车场景与Hash类型.md)
   * 分布式
-    * [Spring_Cloud与Spring_Cloud_Alibaba怎么正确引入依赖版本](/后端开发/分布式/Spring_Cloud与Spring_Cloud_Alibaba怎么正确引入依赖版本.md)
-    * [微服务项目的搭建](/后端开发/分布式/微服务项目的搭建.md)
+    * 分布式事务
+      * 强一致性
+        * [三阶段提交](/后端开发/分布式/分布式事务/强一致性/三阶段提交.md)
+        * [两阶段提交](/后端开发/分布式/分布式事务/强一致性/两阶段提交.md)
+      * 最终一致性
+        * [TCC分布式事务控制模式](/后端开发/分布式/分布式事务/最终一致性/TCC分布式事务控制模式.md)
+        * [本地消息表方案](/后端开发/分布式/分布式事务/最终一致性/本地消息表方案.md)
+        * [消息系统方案](/后端开发/分布式/分布式事务/最终一致性/消息系统方案.md)
+    * 分布式理论
+      * [CAP和BASE理论](/后端开发/分布式/分布式理论/CAP和BASE理论.md)
+    * 项目搭建
+      * [Spring_Cloud与Spring_Cloud_Alibaba怎么正确引入依赖版本](/后端开发/分布式/项目搭建/Spring_Cloud与Spring_Cloud_Alibaba怎么正确引入依赖版本.md)
+      * [微服务项目的搭建](/后端开发/分布式/项目搭建/微服务项目的搭建.md)
   * 框架
     * [框架和库的区别与联系](/后端开发/框架/框架和库的区别与联系.md)
+    * MyBatis
+      * [MyBatis_的缓存机制](/后端开发/框架/MyBatis/MyBatis_的缓存机制.md)
+      * [ORM](/后端开发/框架/MyBatis/ORM.md)
     * Spring
       * [Bean的生命周期](/后端开发/框架/Spring/Bean的生命周期.md)
       * [JavaGuide面试题](/后端开发/框架/Spring/JavaGuide面试题.md)
@@ -55,6 +73,8 @@
     * SpringBoot
       * [多图总结_SpringBoot_开发](/后端开发/框架/SpringBoot/多图总结_SpringBoot_开发.md)
   * 消息队列
+    * [RocketMQ知识清单](/后端开发/消息队列/RocketMQ知识清单.md)
+    * [为什么要引入消息队列](/后端开发/消息队列/为什么要引入消息队列.md)
   * 系统设计
     * [JWT技术选型以及相关功能的实现](/后端开发/系统设计/JWT技术选型以及相关功能的实现.md)
 * 计算机基础
@@ -66,13 +86,14 @@
     * [操作系统问题清单](/计算机基础/操作系统/操作系统问题清单.md)
   * 算法与数据结构
     * leetcode
+      * [Java输入输出](/计算机基础/算法与数据结构/leetcode/Java输入输出.md)
       * [Java集合用法](/计算机基础/算法与数据结构/leetcode/Java集合用法.md)
       * [KMP算法](/计算机基础/算法与数据结构/leetcode/KMP算法.md)
       * [LeetCode题型总结](/计算机基础/算法与数据结构/leetcode/LeetCode题型总结.md)
       * [动态规划](/计算机基础/算法与数据结构/leetcode/动态规划.md)
       * [回溯算法](/计算机基础/算法与数据结构/leetcode/回溯算法.md)
       * [题目思路_--_hot100](/计算机基础/算法与数据结构/leetcode/题目思路_--_hot100.md)
-      * [题目思路_--_代码随想录](/计算机基础/算法与数据结构/leetcode/题目思路_--_代码随想录.md)
+      * [题目思路_--_经典150](/计算机基础/算法与数据结构/leetcode/题目思路_--_经典150.md)
     * 数据结构理论
       * [为什么要用递归以及递归如何书写_](/计算机基础/算法与数据结构/数据结构理论/为什么要用递归以及递归如何书写_.md)
       * [二分查找](/计算机基础/算法与数据结构/数据结构理论/二分查找.md)
@@ -105,11 +126,18 @@
   * 软件工程
     * [软件工程](/计算机基础/软件工程/软件工程.md)
     * [软工期末大题固定题型](/计算机基础/软件工程/软工期末大题固定题型.md)
-* 部署
-  * [Docker](/部署/Docker.md)
-  * [Git学习](/部署/Git学习.md)
-  * [用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】](/部署/用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】.md)
+* 部署与开发
+  * [Docker](/部署与开发/Docker.md)
+  * [Git使用规范和最佳实践](/部署与开发/Git使用规范和最佳实践.md)
+  * [Git学习](/部署与开发/Git学习.md)
+  * [用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】](/部署与开发/用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】.md)
 * 项目经验
-  * [小傅哥手写Spring](/项目经验/小傅哥手写Spring.md)
   * [开发中遇到的问题](/项目经验/开发中遇到的问题.md)
-  * [模仿_Spring_Framwork_手写_Pig_Framwork](/项目经验/模仿_Spring_Framwork_手写_Pig_Framwork.md)
+  * 12306
+    * [12306缓存](/项目经验/12306/12306缓存.md)
+    * [幂等组件](/项目经验/12306/幂等组件.md)
+  * hand-write-spring
+    * [小傅哥手写Spring](/项目经验/hand-write-spring/小傅哥手写Spring.md)
+    * [模仿_Spring_Framwork_手写_Pig_Framwork](/项目经验/hand-write-spring/模仿_Spring_Framwork_手写_Pig_Framwork.md)
+  * redis-tools
+    * [Redis分布式锁](/项目经验/redis-tools/Redis分布式锁.md)
