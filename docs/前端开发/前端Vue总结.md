@@ -9,7 +9,7 @@
 
 **2.View（视图）**: 负责展示数据，即用户界面部分。它仅仅是 Model 数据的表现形式，不包含业务逻辑。前端的 View 通常是页面，通过绑定的数据动态展示 Model 的状态。
 
-就相当于Vue中的<template>和<style>
+就相当于Vue中的template和style里面的内容。
 
 **3.ViewModel（视图模型）**: 充当 View 和 Model 之间的中介，它负责处理用户交互逻辑并将其转化为对 Model 的更新，同时将 Model 的变化同步到 View。ViewModel 是关键部分，它通过双向数据绑定使 Model 和 View 保持同步，避免手动更新视图。
 

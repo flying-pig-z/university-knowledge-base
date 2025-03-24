@@ -22,6 +22,8 @@
       * [集合大全](/后端开发/Java/Java集合/集合大全.md)
     * JUC
       * [JUC问题清单](/后端开发/Java/JUC/JUC问题清单.md)
+  * JVM
+    * [JVM的双亲委派机制](/后端开发/JVM/JVM的双亲委派机制.md)
   * MySQL数据库
     * 知识清单
       * [MVCC的原理](/后端开发/MySQL数据库/知识清单/MVCC的原理.md)
@@ -39,6 +41,7 @@
       * [深度分页问题及优化方案](/后端开发/MySQL数据库/面试题/深度分页问题及优化方案.md)
   * Redis
     * [Redis_Cluster](/后端开发/Redis/Redis_Cluster.md)
+    * [Redis_五种基本数据类型的数据结构](/后端开发/Redis/Redis_五种基本数据类型的数据结构.md)
     * [Redis主从复制](/后端开发/Redis/Redis主从复制.md)
     * [Redis问题清单](/后端开发/Redis/Redis问题清单.md)
     * [缓存使用场景与缓存最终一致性的策略](/后端开发/Redis/缓存使用场景与缓存最终一致性的策略.md)
@@ -65,13 +68,14 @@
       * [ORM](/后端开发/框架/MyBatis/ORM.md)
     * Spring
       * [Bean的生命周期](/后端开发/框架/Spring/Bean的生命周期.md)
-      * [JavaGuide面试题](/后端开发/框架/Spring/JavaGuide面试题.md)
       * [Spring三级缓存](/后端开发/框架/Spring/Spring三级缓存.md)
+      * [问题清单](/后端开发/框架/Spring/问题清单.md)
     * Spring_Security
       * [spring_security_学习笔记（一）--_认证](/后端开发/框架/Spring_Security/spring_security_学习笔记（一）--_认证.md)
       * [spring_security学习笔记（二）--授权](/后端开发/框架/Spring_Security/spring_security学习笔记（二）--授权.md)
     * SpringBoot
       * [多图总结_SpringBoot_开发](/后端开发/框架/SpringBoot/多图总结_SpringBoot_开发.md)
+      * [问题清单](/后端开发/框架/SpringBoot/问题清单.md)
   * 消息队列
     * [RocketMQ知识清单](/后端开发/消息队列/RocketMQ知识清单.md)
     * [为什么要引入消息队列](/后端开发/消息队列/为什么要引入消息队列.md)
@@ -86,11 +90,12 @@
     * [操作系统问题清单](/计算机基础/操作系统/操作系统问题清单.md)
   * 算法与数据结构
     * leetcode
+      * [0-1背包_--_分割等和子集](/计算机基础/算法与数据结构/leetcode/0-1背包_--_分割等和子集.md)
       * [Java输入输出](/计算机基础/算法与数据结构/leetcode/Java输入输出.md)
       * [Java集合用法](/计算机基础/算法与数据结构/leetcode/Java集合用法.md)
       * [KMP算法](/计算机基础/算法与数据结构/leetcode/KMP算法.md)
       * [LeetCode题型总结](/计算机基础/算法与数据结构/leetcode/LeetCode题型总结.md)
-      * [动态规划](/计算机基础/算法与数据结构/leetcode/动态规划.md)
+      * [动态规划基础](/计算机基础/算法与数据结构/leetcode/动态规划基础.md)
       * [回溯算法](/计算机基础/算法与数据结构/leetcode/回溯算法.md)
       * [题目思路_--_hot100](/计算机基础/算法与数据结构/leetcode/题目思路_--_hot100.md)
       * [题目思路_--_经典150](/计算机基础/算法与数据结构/leetcode/题目思路_--_经典150.md)
@@ -128,8 +133,8 @@
     * [软工期末大题固定题型](/计算机基础/软件工程/软工期末大题固定题型.md)
 * 部署与开发
   * [Docker](/部署与开发/Docker.md)
-  * [Git使用规范和最佳实践](/部署与开发/Git使用规范和最佳实践.md)
   * [Git学习](/部署与开发/Git学习.md)
+  * [Git实战](/部署与开发/Git实战.md)
   * [用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】](/部署与开发/用datagrip远程连接mysql超时怎么解决【连接mysql会遇到的坑】.md)
 * 项目经验
   * [开发中遇到的问题](/项目经验/开发中遇到的问题.md)
@@ -141,3 +146,4 @@
     * [模仿_Spring_Framwork_手写_Pig_Framwork](/项目经验/hand-write-spring/模仿_Spring_Framwork_手写_Pig_Framwork.md)
   * redis-tools
     * [Redis分布式锁](/项目经验/redis-tools/Redis分布式锁.md)
+    * [Redis限流器](/项目经验/redis-tools/Redis限流器.md)

@@ -24,7 +24,7 @@ Stream[在 Redis 发生故障恢复后不能保证消息至少被消费一次]
 + Redis 可以做搜索引擎么？
 + 如何基于 Redis 实现延时任务？两种方案哪个比较好？
 
-## [<font style="color:rgb(60, 60, 67);">Redis数据类型</font>](https://javaguide.cn/database/redis/redis-questions-01.html#redis-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+## <font style="color:rgb(60, 60, 67);">Redis数据类型</font>
 + Redis 常用的数据类型有哪些？
 + String的应用场景有什么？
 + String 还是 Hash 存储对象数据更好呢？
@@ -57,6 +57,48 @@ Stream[在 Redis 发生故障恢复后不能保证消息至少被消费一次]
 + 使用 HyperLogLog 统计页面 UV 怎么做？
 
 ## Redis数据类型底层数据结构（小林coding）
++ 五种基本数据类型对应的底层数据结构是什么？
+
+
+
++ SDS底层数据结构是怎么样的？
++ SDS相比于C语言的字符数组有什么优势？（也可以和c++中string比较一下）
+
+
+
++ Redis最早的List是什么结构？有什么缺点？
+
+
+
++ 压缩链表的结构是怎么样的？
++ 压缩链表的优点？（压缩）压缩链表的缺点？（连锁更新）
++ 什么是连锁更新？
++ redis采用什么方式来解决哈希冲突？
+
+
+
++ listpack的结构是怎么样的？为什么没有连锁更新的问题？
+
+
+
++ Redis中哈希表的结构是怎么样的？
++ Redis中是怎么解决哈希冲突的？
++ Redis的哈希表是怎么进行rehash的？什么是渐进式rehash？
++ rehash 触发条件是什么？ 
+
+
+
++ inset的结构是怎么样的
++ inset的优点 -- 为什么相比于哈希表节省内存？
++ intset的升级操作是怎么样的？
++ intset的升级是可逆的吗？
+
+
+
++ quicklist的结构是怎么样的？（通过quicklist的结构你就知道它为什么既能解决普通双向链表内存占用过大的问题，又能解决ziplist大规模连锁更新的问题了）
+
+
+
 + 跳表结构是怎么样的？
 + 跳表节点查询过程是怎么样的？查找复杂度是多少？
 + 跳表相邻两层节点的理想比例是多少？
@@ -169,6 +211,11 @@ Stream[在 Redis 发生故障恢复后不能保证消息至少被消费一次]
 3. Sentinel 如何选择出新的 master?
 4. 如何从 Sentinel 集群中选择出 Leader ？
 5. Sentinel 可以防止脑裂吗？
+
+
+
++ 什么是脑裂
++ 脑裂怎么避免？能完全避免吗？
 
 
 

@@ -4,7 +4,7 @@ from pathlib import Path
 class DocsifySidebarGenerator:
     def __init__(self, docs_dir):
         self.docs_dir = Path(docs_dir)
-        self.ignore_files = {'_sidebar.md', '.nojekyll', '_navbar.md', '_404.md'}
+        self.ignore_files = {'_sidebar.md', '.nojekyll', '_navbar.md', '_404.md', '_coverpage.md'}
         self.indent_spaces = 2
 
     def is_markdown_file(self, file_path):
