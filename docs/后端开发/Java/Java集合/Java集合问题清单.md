@@ -48,6 +48,9 @@
 + 什么是fail-safe安全失败的思想？什么是写时复制?这个在遍历操作的时候有什么缺点？
 + Java 的 CopyOnWriteArrayList 和 Collections.synchronizedList 有什么区别？ 分别有什么优缺点?
 
+> 我实习本地内存很多就用CopyOnWriteArrayList，因为写时复制读取不用加锁比较快。
+>
+
 ## Set
 + Comparable 和 Comparator 接口干什么用的？
 + Comparable 和 Comparator 分别是哪个包的？这两个接口什么方法用于排序？
