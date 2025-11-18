@@ -4,12 +4,9 @@
 
 add commit push rebase merge
 
-add commit push用来提交代码
-
-rebase用来修整分支
-
-merge用来合并分支，比如合并需求分支到测试分支/release分支，合并release分支到master分支。
-
++ add commit push用来提交代码
++ rebase用来修整分支
++ merge用来合并分支，比如合并需求分支到测试分支/release分支，合并release分支到master分支。
 2. 完整流程
 
 比较完成的流程是分为feature分支，test分支，release分支，master分支。

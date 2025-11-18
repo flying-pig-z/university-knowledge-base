@@ -91,28 +91,6 @@ COMMIT;
 
 这时候我们可以考虑使用悲观锁来解决。
 
-## 优化
-超卖这样的问题，在高并发写的情况下，乐观锁是不合适的。
-
-我们可以利用update子句本身就含有行锁的特性，直接简化成：
-
-```sql
-UPDATE product 
-SET stock = stock - 1
-WHERE id = {id} AND stock > 0
-```
-
-但是实际的业务更加复杂，这种方法常常不适用，比如说要更新多个产品的库存。
-
-```sql
-UPDATE product SET stock = stock - 2 WHERE id = 101 AND stock >= 2
-UPDATE product SET stock = stock - 1 WHERE id = 102 AND stock >= 1
-```
-
-如果涉及多个操作，多个操作的原子性也要保证。
-
-这时候更适合使用加锁解决，如果写操作比较少，就用乐观锁；要不然就用悲观锁，然后加入Redis库存预扣减，消息队列，限流等措施优化。
-
 ## 补充：版本号机制
 除了CAS，版本号也可以实现乐观锁。
 
