@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 MySql InnoDB的索引分为主键索引（也叫聚簇索引）与二级索引（也叫非聚簇索引）。
 
 不管是主键索引还是二级索引，InnoDB都使用B+树结构。

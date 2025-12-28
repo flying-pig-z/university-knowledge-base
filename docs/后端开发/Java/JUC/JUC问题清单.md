@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 # 上
 + 什么是线程和进程?
 + Java 线程和操作系统的线程有啥区别？

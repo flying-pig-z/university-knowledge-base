@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1737164887428-983559f8-1ed1-45b7-84bd-9a845449e524.png)
 
 像这样的购物车信息后String好，还是Hash好，还是List好呢？

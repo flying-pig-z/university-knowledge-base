@@ -243,7 +243,9 @@ def main():
             print(f"处理失败文件数: {total_stats['files_failed']}")
         print()
         print(f"所有文件原始字符总数: {total_stats['total_original_chars']:,}")
-        print(f"去除Markdown格式之后字符总数: {total_stats['total_clean_chars']:,}")
+        print(f"纯文本字符总数: {total_stats['total_clean_chars']:,}")
+        print(f"中文字符总数: {total_stats['total_chinese_chars']:,}")
+        print(f"英文单词总数: {total_stats['total_english_words']:,}")
         
         # 显示失败的文件
         if failed_files and args.verbose:

@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## <font style="color:rgb(54, 54, 54);">一. IOC 和 DI</font>
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1739341248975-a265b589-a11e-4559-bbc0-66860c06bec0.png)
 

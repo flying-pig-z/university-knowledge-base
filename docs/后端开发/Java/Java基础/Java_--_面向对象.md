@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ### 十. 封装
 #### 1. 访问权限不用加
 在 c++ 中是访问权限： 属性 / 行为：

@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 **！！！本文适合有c和c++基础的，通过比较c++和java的不同，快速入门java。！！！**  
 这篇文章主要是介绍和c++[不同的](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)地方，没说的知识点按照c++写就行了。
 

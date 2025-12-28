@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 一. Spring Cloud 与 Spring Cloud Alibaba 与 Springboot 各版本的依赖关系
 我们可以去 springcloud alibaba 的 [github](https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020) 仓库中的说明中查找到三个依赖版本的对应关系：
 

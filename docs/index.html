@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" title="light" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <link rel="stylesheet" title="dark" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+  <link rel="stylesheet" href="qa-bot.css">
+
 
   <!-- link docsify-dark-switch.css  -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.css">
@@ -31,7 +33,10 @@
     /* 深色主题色 */
     --theme-color: #ea6f5a;
   }
-  #app { display: none; }
+
+  #app {
+    display: none;
+  }
 
   /* toc */
   .page_toc div[class^="lv"] a {
@@ -126,6 +131,22 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-jsx.min.js"></script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.min.js"></script>
+
+  <script src="qa-bot.js"></script>
+  <script>
+    // 初始化 QA Bot
+    QABot.initialize({
+      // 你的 RAG 接口地址
+      serverUrl: 'http://8.210.250.29:9091/api/rag/answer',
+      // 知识库 ID 列表
+      knowledgeBaseIds: [2],
+      // 机器人名称
+      botName: '飞猪AI',
+      // 欢迎语
+      welcomeMessage: '你好！我是学习笔记助手，有什么问题可以问我哦~'
+    });
+  </script>
+
 
 </body>
 

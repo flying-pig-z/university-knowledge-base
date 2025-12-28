@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 一. 概述
 ### 1. 基础概念
 数据库、[数据库管理系统](https://so.csdn.net/so/search?q=%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&spm=1001.2101.3001.7020)、SQL

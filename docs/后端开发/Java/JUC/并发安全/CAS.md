@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 什么是CAS
 CAS（Compare-And-Swap）是一种原子操作，用于在并发编程中实现无锁算法。
 

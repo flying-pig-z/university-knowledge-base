@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 1. 初始容量
 
 当使用无参构造函数创建 ArrayList 时，会创建一个空数组。第一次添加元素时，会将容量扩展为默认值 10。

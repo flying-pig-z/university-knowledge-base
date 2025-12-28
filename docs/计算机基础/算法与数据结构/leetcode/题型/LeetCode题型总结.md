@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ### 二分查找
 二分法：升序数组快速查找元素
 

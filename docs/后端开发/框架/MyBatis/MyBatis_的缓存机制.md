@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 MyBatis 提供了两级缓存：一级缓存和二级缓存。
 
 ## 一级缓存（本地缓存）

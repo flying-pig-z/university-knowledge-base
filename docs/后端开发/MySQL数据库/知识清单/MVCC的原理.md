@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## MVCC简介
 MVCC (Multi-Version Concurrency Control) 多版本并发控制是数据库管理系统中常用的并发控制机制。MVCC的设计目标是在不加锁的情况下实现事务的隔离性，提供一致性的数据读取。在InnoDB中，MVCC的实现主要是为了支持RC（Read Committed）和RR（Repeatable Read）这两种隔离级别。
 
@@ -119,6 +117,15 @@ Undo Log是MVCC实现的关键组件。
 总所周知，RC模式是防止rollback带来的脏读造成的数据不一样，使用MVVC版本号，每次读取的数据都是已经提交过的，没有提交过的版本不会被写入，所以就不会有脏读。
 
 而RR模式是防止更新数据造成的不可重复读，全局只使用一个ReadView使得每一个时刻读到的数据都是一样的，这样就不会造成不可重复读。
+
+
+
+> 写入都一样，每次都创建新的版本写入成功都覆盖
+>
+> 主要是读的方面的差别，简单说读已提交的读取都是基于最新已经提交的版本进行的
+>
+> 而可重复读的读取是基于事务中第一次的版本
+>
 
 ## RR 可重复读隔离级别是怎么阻止幻读的
 InnoDB存储引擎在 RR 级别下通过 MVCC和 Next-key Lock 来解决幻读问题：

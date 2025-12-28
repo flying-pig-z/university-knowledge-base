@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 例题（**LeetCode 28 题**）
 ### 题目
 **找出字符串中第一个匹配项的下标 给你两个字符串 haystack 和 needle ，请你在 haystack 字符串中找出 needle 字符串的第一个匹配项的下标（下标从 0 开始）。**

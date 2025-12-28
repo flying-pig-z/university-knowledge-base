@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 JavaGuide：
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1735873799160-648f6336-c165-424b-becb-ab4ad7db612b.png)

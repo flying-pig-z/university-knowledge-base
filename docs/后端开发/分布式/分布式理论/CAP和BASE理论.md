@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 # CAP理论
 CAP理论是分布式系统设计中的一个基础理论，由Eric Brewer于2000年提出。CAP代表三个核心特性：
 

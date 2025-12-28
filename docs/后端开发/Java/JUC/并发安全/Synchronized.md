@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 作用
 synchronized 是Java中的一个关键字，是Java 并发编程中的同步机制之一。
 

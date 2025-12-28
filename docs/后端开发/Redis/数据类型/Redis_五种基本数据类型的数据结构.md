@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## String (字符串)
 底层实现：SDS (Simple Dynamic String)
 

@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 > 感觉JavaGuide网站的操作系统部分写的不好懂，这里我参照上面的问题进行**部分重写**。
 >
 > 源文档地址：

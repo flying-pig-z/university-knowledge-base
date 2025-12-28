@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ### ORM框架
 ORM(Object Relational Mapping，对象关系映射)是一种将数据库中的表记录映射为对象的技术，它让开发者可以用面向对象的方式来操作数据库，而不需要直接写SQL语句。
 

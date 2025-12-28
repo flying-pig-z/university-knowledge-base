@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 一.技术选型
 ### 1.为什么不用Session+Cookie，而要用Token?
 #### 【1】无状态

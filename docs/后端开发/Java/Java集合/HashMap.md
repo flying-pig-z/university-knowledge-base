@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 基础结构
 HashMap就是数据结构中哈希表的实现，用于存储键值对，核心就是根据键的哈希值映射到数组中对应的索引处进行存储。
 

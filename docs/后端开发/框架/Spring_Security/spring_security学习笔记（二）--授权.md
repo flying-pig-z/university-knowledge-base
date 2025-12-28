@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 ## 零.前情提要
 这篇文章主要借鉴B站三更大大关于spring security的教程，这篇文章的大部分内容也来自于那个教程，写这个的主要目的是记录加强印象，总结，并且在文章中我也有穿插自己的想法。
 

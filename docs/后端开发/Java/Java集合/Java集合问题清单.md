@@ -1,5 +1,3 @@
-<meta name="referrer" content="no-referrer"/>
-
 > 整合自JavaGuide 小林coding
 >
 
