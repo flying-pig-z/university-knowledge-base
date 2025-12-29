@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 **目录**
 
 [一.开放端口](https://blog.csdn.net/bjjx123456/article/details/132131628#t0)

@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 实际项目中，大多数简单同步场景用Synchronized就够了，只有需要高级特性时（**超时、可中断、公平性或多条件**）才考虑使用ReentrantLock。
 
 ReentrantLock可以看做具有高级特性的Synchronized。

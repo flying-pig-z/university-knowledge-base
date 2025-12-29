@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## <font style="color:rgb(27, 27, 33);background-color:rgb(254, 251, 255);">主从复制下从节点会主动删除过期数据吗？</font>
 > 类似的问题：
 >

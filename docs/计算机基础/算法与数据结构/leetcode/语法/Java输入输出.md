@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 1.Scanner类
 ```plain
 import java.util.Scanner;

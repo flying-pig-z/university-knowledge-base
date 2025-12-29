@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## Java IO基础知识介绍
 + 什么是IO，什么是IO流？
 + JavaIO流的那么多个类是从哪四个抽象类基类派生出来的？

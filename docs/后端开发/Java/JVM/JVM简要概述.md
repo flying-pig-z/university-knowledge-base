@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 整体结构
 ## 运行时数据
 ### 线程不共享

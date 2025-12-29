@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 1. 其实Git只要掌握五个命令就行了
 
 add commit push rebase merge

@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## MVCC简介
 MVCC (Multi-Version Concurrency Control) 多版本并发控制是数据库管理系统中常用的并发控制机制。MVCC的设计目标是在不加锁的情况下实现事务的隔离性，提供一致性的数据读取。在InnoDB中，MVCC的实现主要是为了支持RC（Read Committed）和RR（Repeatable Read）这两种隔离级别。
 

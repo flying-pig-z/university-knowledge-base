@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 一.上
 + Javase vs javaee vs javame
 + JDK JRE JVM分别是什么

@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## Redis基础
 + 什么是Redis
 + Redis为什么快（内存 网络模型 通信协议 数据结构）

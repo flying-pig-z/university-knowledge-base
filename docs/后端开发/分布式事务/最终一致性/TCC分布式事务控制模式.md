@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 **TCC是一种分布式事务控制模式，其核心思想是将一个全局事务拆分为多个子事务，分别在每个服务中执行，并通过三种明确的操作来管理子事务：Try、Confirm、Cancel。**
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1740900491074-68f0592e-08fd-489c-979b-260a49761093.png)

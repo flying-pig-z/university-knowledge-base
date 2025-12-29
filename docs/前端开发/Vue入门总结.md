@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 一.前端MVVC
 前端的 MVVM 模式（Model-View-ViewModel）是一种软件架构设计模式，用于分离前端应用程序中的数据逻辑和用户界面。它主要通过 **Model（模型）、View（视图）和 ViewModel（视图模型）**三者之间的协作来实现数据与视图的双向绑定，简化界面更新和用户交互。以下是各部分的定义和作用：
 

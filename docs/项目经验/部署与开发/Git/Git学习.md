@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 # 一.Git简介
 ## 1.什么是Git?
 Git 是一种分布式版本控制系统，用于跟踪代码或文件的更改历史，管理项目的不同版本。

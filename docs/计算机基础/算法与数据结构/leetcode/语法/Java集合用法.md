@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 Java中最常见的集合API其实就List Queue Map Set Stack这五种。
 
 ### Collection接口

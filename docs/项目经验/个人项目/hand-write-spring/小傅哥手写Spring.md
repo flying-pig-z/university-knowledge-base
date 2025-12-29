@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ### 初步实现Bean的定义，注册，获取三个基本步骤
 搭建一个简单的Spring Bean容器 -- 实现Bean的定义，注册，获取三个基本步骤。
 

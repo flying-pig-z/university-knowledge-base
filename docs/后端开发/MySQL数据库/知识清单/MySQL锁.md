@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 一. 前言
 锁主要是用来在多线程或多并发时候限制数据的相关增删改查操作，进而保证数据的一致性和有效性。
 

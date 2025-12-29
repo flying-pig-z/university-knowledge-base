@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1743342293837-be0b220a-d688-4b8f-828f-86a316f2bedf.png)
 
 【1】桥接模式

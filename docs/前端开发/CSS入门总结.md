@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## CSS基础概念
 ### 什么是CSS？
 + **CSS = Cascading Style Sheets（层叠样式表）**

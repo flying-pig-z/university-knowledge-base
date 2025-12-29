@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 AQS（AbstractQueuedSynchronizer）是Java并发编程中的一个核心框架。
 
 ## 什么是AQS

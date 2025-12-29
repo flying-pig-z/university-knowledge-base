@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ### 为什么需要Redis Cluster
 高并发场景下，Redis会遇到两大问题 -- 缓存数据量大 读写操作并发量大。
 

@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ### 三级缓存的结构
 + singletonObjects (一级缓存)：存放完全初始化好的bean
 + earlySingletonObjects (二级缓存)：存放原始bean，已完成实例化但未完成属性注入和初始化

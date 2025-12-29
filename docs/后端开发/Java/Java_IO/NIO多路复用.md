@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1737299248678-702eca3f-2e22-4255-98f9-844501795df4.png)
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/42768076/1737299535770-089315b9-93d2-401f-93d2-577aa93f31b3.png)

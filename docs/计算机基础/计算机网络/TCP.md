@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 # 可靠性
 ## 滑动窗口流量控制
 TCP通过**滑动窗口**机制来实现流量控制。

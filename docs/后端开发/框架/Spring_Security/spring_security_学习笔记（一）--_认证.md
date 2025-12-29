@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 > 学习自B站UP主三更的视频
 >
 

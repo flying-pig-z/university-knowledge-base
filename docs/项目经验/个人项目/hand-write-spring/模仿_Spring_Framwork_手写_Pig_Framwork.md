@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## <font style="color:rgb(31, 35, 40);">一.项目介绍</font>
 <font style="color:rgb(31, 35, 40);">项目分为五个模块： ioc模块 aop模块 jdbc模块 webmvc模块 boot模块</font>
 

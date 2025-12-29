@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer"/>
+
 ## 一.Docker 是干什么的
 在没亲自使用过之前，再多的术语也仅仅是抽象，只有写的人或者使用过的人能看懂。  
 所以，作为新手来说，先知道 Docker 是用于部署项目就够了，下面展示如何用 [Docker 部署](https://so.csdn.net/so/search?q=Docker%E9%83%A8%E7%BD%B2&spm=1001.2101.3001.7020)项目及 Docker 常用命令。
